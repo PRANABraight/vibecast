@@ -39,3 +39,97 @@ body {
     font-weight: 600;
     margin-left: 8px;
 }
+
+.search-container {
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.search-box {
+    width: 100%;
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.input-group {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.input-group input {
+    border: none;
+    padding: 1rem 1.5rem;
+    font-size: 1.1rem;
+}
+
+.search-btn {
+    padding: 0.8rem 1.8rem;
+    font-size: 1.1rem;
+    border: none;
+    background: linear-gradient(135deg, #6b73ff 0%, #000dff 100%);
+}
+
+.search-btn:hover {
+    background: linear-gradient(135deg, #5c64ff 0%, #000bf0 100%);
+    transform: translateY(-1px);
+}
+
+.location-btn {
+    padding: 1rem;
+    font-size: 1.1rem;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.location-btn:hover {
+    background: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.divider {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.9rem;
+    position: relative;
+    padding: 0 10px;
+}
+
+.divider::before,
+.divider::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.divider::before {
+    right: 100%;
+}
+
+.divider::after {
+    left: 100%;
+}
+
+/* Toast styling */
+.toast {
+    background: rgba(33, 33, 33, 0.95) !important;
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.toast-body {
+    color: white;
+    font-size: 0.95rem;
+}

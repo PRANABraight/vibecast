@@ -2,10 +2,16 @@
 
 const apiKey = '28028eb26a162a3876d89bfe01a6b28a'; // Hardcoded for testing
 
-// Function to fetch weather data based on city input
-export const fetchWeatherData = async (city) => {
+// Function to fetch weather data based on city input or coordinates
+export const fetchWeatherData = async (query) => {
     try {
-        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`);
+        // Check if query is coordinates or city name
+        const baseUrl = 'https://api.openweathermap.org/data/2.5/weather';
+        const url = query.includes('lat=') 
+            ? `${baseUrl}?${query}&appid=${apiKey}&units=metric`
+            : `${baseUrl}?q=${query}&appid=${apiKey}&units=metric`;
+
+        const response = await fetch(url);
         if (!response.ok) {
             throw new Error('Weather data not found');
         }
