@@ -1,0 +1,42 @@
+$primary-color: #3498db; // Blue for sunny weather
+$secondary-color: #2ecc71; // Green for mild weather
+$background-color-sunny: #f1c40f; // Yellow background for sunny
+$background-color-rainy: #2980b9; // Blue background for rainy
+$background-color-cloudy: #95a5a6; // Gray background for cloudy
+$font-family: 'Arial, sans-serif'; // Default font family
+$font-size-base: 16px; // Base font size
+$border-radius: 5px; // Border radius for buttons and inputs
+
+// Breakpoints for responsive design
+$breakpoint-mobile: 576px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 992px;
+
+// Theme colors
+$text-color-light: #ffffff;
+$text-color-dark: #333333;
+$error-color: #e74c3c;
+$success-color: #27ae60;
+
+// Enhanced theme colors
+$card-background: rgba(255, 255, 255, 0.95);
+$card-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+$gradient-overlay: linear-gradient(120deg, rgba(255,255,255,0.2), rgba(255,255,255,0.1));
+
+// Typography
+$font-weight-bold: 700;
+$font-weight-medium: 500;
+$line-height-base: 1.5;
+
+// Animation
+$transition-speed: 0.3s;
+$animation-timing: ease-in-out;
+
+// Spacing
+$spacing-small: 8px;
+$spacing-medium: 16px;
+$spacing-large: 24px;
+
+// Spacing and layout
+$card-padding: 2rem;
+$border-radius-lg: 15px;
