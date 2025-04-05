@@ -101,12 +101,12 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Screenshots 📸
 
 ### Landing Page
-![Landing Page](vibe-cast/src/assets/images/landing.png)
+![Landing Page](src/assets/images/landing.png)
 
 ### Music Recommendations
-![Music Recommendations](vibe-cast/src/assets/images/recommendation.png)
+![Music Recommendations](src/assets/images/recommendation.png)
 
 ## Contact 📧
 
 Pranab Rai - [LinkedIn](https://linkedin.com/in/pranabrai)
-Project Link: [https://github.com/yourusername/vibecast](https://github.com/pranabraight/vibecast)
+Project Link: [https://github.com/pranabraight/vibecast](https://github.com/pranabraight/vibecast)
