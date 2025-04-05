@@ -99,13 +99,12 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Font Awesome for icons
 
 ## Screenshots 📸
-## Screenshots 📸
 
 ### Landing Page
-![Landing Page](./assets/images/landing.png)
+![Landing Page](src/assets/images/landing.png)
 
 ### Music Recommendations
-![Music Recommendations](./assets/images/recommendations.png)
+![Music Recommendations](src/assets/images/recommendation.png)
 
 ## Contact 📧
 
