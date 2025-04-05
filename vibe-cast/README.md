@@ -101,10 +101,10 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Screenshots 📸
 
 ### Landing Page
-![Landing Page](src/assets/images/landing.png)
+![Landing Page](vibe-cast/src/assets/images/landing.png)
 
 ### Music Recommendations
-![Music Recommendations](src/assets/images/recommendation.png)
+![Music Recommendations](vibe-cast/src/assets/images/recommendation.png)
 
 ## Contact 📧
 
