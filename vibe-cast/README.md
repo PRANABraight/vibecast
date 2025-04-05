@@ -109,4 +109,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Contact 📧
 
 Pranab Rai - [LinkedIn](https://linkedin.com/in/pranabrai)
-Project Link: [https://github.com/yourusername/vibecast](https://github.com/pranabraight/vibecast)
+Project Link: [https://github.com/pranabraight/vibecast](https://github.com/pranabraight/vibecast)
