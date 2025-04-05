@@ -102,10 +102,10 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Screenshots 📸
 
 ### Landing Page
-![Landing Page](./screenshots/landing-page.png)
+![Landing Page](./assets/images/landing.png)
 
 ### Music Recommendations
-![Music Recommendations](./screenshots/music-recommendations.png)
+![Music Recommendations](./assets/images/recommendations.png)
 
 ## Contact 📧
 
